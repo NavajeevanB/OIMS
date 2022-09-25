@@ -70,7 +70,7 @@
                 </div>
                 <div class="u-form-group u-form-group-2">
                   <label for="text-736a" class="u-label">Email *</label>
-                  <input type="eail" placeholder="Enter your Company/College Email" id="text-736a" name="text" class="u-grey-5 u-input u-input-rectangle u-radius-10 u-input-2" required="required">
+                  <input type="email" placeholder="Enter your Company/College Email" id="text-736a" name="text" class="u-grey-5 u-input u-input-rectangle u-radius-10 u-input-2" required="required">
                 </div>
                 <div class="u-form-group u-form-password">
                   <label for="password-a30d" class="u-label">Password *</label>
