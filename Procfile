@@ -1,2 +1,1 @@
-buildpacks:clear
-war:deploy target/OIMS.war
+war: deploy target/OIMS.war
