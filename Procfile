@@ -1,1 +1,2 @@
-heroku ps:scale web=1
+buildpacks:clear
+war:deploy target/OIMS.war
