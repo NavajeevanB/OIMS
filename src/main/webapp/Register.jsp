@@ -103,21 +103,21 @@
 						class="u-custom-font u-font-montserrat u-text u-text-default u-text-1">Register
 						here</h3>
 					<div class="u-form u-login-control u-white u-form-1">
-						<form action="#" method="POST"
+						<form action="http://localhost:8080/OIMS/Register" method="POST"
 							class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form"
-							source="custom" name="form" style="padding: 12px;"
-							redirect="true">
+							source="custom" name="form" style="padding: 12px;">
+							<!-- redirect="true" -->
 							<div class="u-form-group u-form-name">
 								<label for="username-a30d" class="u-label">Username *</label> <input
 									type="text" placeholder="Enter your Username"
-									id="username-a30d" name="username"
+									id="username-a30d" name="name"
 									class="u-grey-5 u-input u-input-rectangle u-radius-10 u-input-1"
 									required="">
 							</div>
 							<div class="u-form-group u-form-group-2">
 								<label for="text-736a" class="u-label">Email *</label> <input
 									type="email" placeholder="Enter your Company/College Email"
-									id="text-736a" name="text"
+									id="text-736a" name="email"
 									class="u-grey-5 u-input u-input-rectangle u-radius-10 u-input-2"
 									required="required">
 							</div>
@@ -131,7 +131,7 @@
 							<div class="u-form-group u-form-select u-form-group-4">
 								<label for="select-c801" class="u-label">Category *</label>
 								<div class="u-form-select-wrapper">
-									<select id="select-c801" name="select"
+									<select id="select-c801" name="category"
 										class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-10 u-white"
 										required="required">
 										<option value="Student">Student</option>

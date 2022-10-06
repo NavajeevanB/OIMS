@@ -1,1 +1,1 @@
- war:deploy target/OIMS.war --app oims-nj
+war:deploy target/OIMS.war --app oims-nj
